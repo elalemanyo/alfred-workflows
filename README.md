@@ -13,7 +13,6 @@ P.S.: You need to [buy the Powerpack](https://buy.alfredapp.com/) to use these w
 
 ## Workflows
 
-* * *
 ### [Nginx & MySQL & php-fpm](https://github.com/elalemanyo/alfred-workflows/tree/master/nginx_mysql_php-fpm) (v1.0)
 
 Toggle Localhost Services (Start, Stop, Restart and Check Status).
