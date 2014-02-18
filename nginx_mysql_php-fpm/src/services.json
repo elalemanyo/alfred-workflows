@@ -1,0 +1,25 @@
+ {
+	"nginx": {
+		"id":"nginx",
+		"name":"Nginx",
+		"label":"org.nginx.nginx"
+	},
+
+	"mysql": {
+		"id":"mysql",
+		"name":"MySQL",
+		"label":"org.mysql.mysqld"
+	},
+
+	"php-fpm": {
+		"id":"php-fpm",
+		"name":"php-fpm",
+		"label":"org.php.php-fpm.plist"
+	},
+
+	"memcached": {
+		"id":"memcached",
+		"name":"memcached",
+		"label":"org.memcache.memcached"
+	}
+}

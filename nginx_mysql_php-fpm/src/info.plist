@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>080E35B4-F46C-4050-BC89-2765384D3DF4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7D79F90-2CE8-4BD8-9B9D-40910959F902</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>27A9BDCB-3FC5-4594-A97D-CE17CC4F6DBB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7D79F90-2CE8-4BD8-9B9D-40910959F902</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>6E8598E6-C055-4172-82AB-DC3781B3346C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7D79F90-2CE8-4BD8-9B9D-40910959F902</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>8018CD8E-A57D-4697-8EA0-7EB08B8F80AF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7D79F90-2CE8-4BD8-9B9D-40910959F902</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>B7D79F90-2CE8-4BD8-9B9D-40910959F902</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3CDF9F7E-2119-419E-B80F-1071675057C9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>El Alemaño</string>
+	<key>description</key>
+	<string>Controls Nginx, MySQL and php-fpm</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Nginx &amp; MySQL &amp; php-fpm &amp; memcached</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>localhost</string>
+				<key>runningsubtext</key>
+				<string>Status of all services</string>
+				<key>script</key>
+				<string>require("check_localhost.php");</string>
+				<key>subtext</key>
+				<string>Localhost Status</string>
+				<key>title</key>
+				<string>Localhost</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>40F6C424-CBA8-4A34-A86C-71CE9ACE3E01</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>nginx-cmd</string>
+				<key>script</key>
+				<string>$id = "nginx";
+require_once('control_nginx.php');</string>
+				<key>subtext</key>
+				<string>Run `nginx`</string>
+				<key>title</key>
+				<string>Nginx Command</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>080E35B4-F46C-4050-BC89-2765384D3DF4</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>php-fpm-cmd</string>
+				<key>script</key>
+				<string>$id = "php-fpm";
+require_once('control_phpfpm.php');</string>
+				<key>subtext</key>
+				<string>Run `nginx`</string>
+				<key>title</key>
+				<string>php-fpm Command</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>27A9BDCB-3FC5-4594-A97D-CE17CC4F6DBB</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>localhost</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>3CDF9F7E-2119-419E-B80F-1071675057C9</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>$query = '{query}';
+list($q, $id) = explode('?', $query);
+echo $id;
+
+echo exec($q);
+
+$command = "pgrep $id &gt; /dev/null";
+exec($command, $output, $status);
+$status = ($status) ? "NOT RUNNING" : "RUNNING";
+echo $name . ': ' . $status;
+
+</string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B7D79F90-2CE8-4BD8-9B9D-40910959F902</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>mysql-cmd</string>
+				<key>script</key>
+				<string>$id = "mysql";
+require_once('control_mysql.php');</string>
+				<key>subtext</key>
+				<string>Run `mysql`</string>
+				<key>title</key>
+				<string>MySQL Command</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>6E8598E6-C055-4172-82AB-DC3781B3346C</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>memcached-cmd</string>
+				<key>script</key>
+				<string>$id = "memcached";
+require_once('control_memcached.php');</string>
+				<key>subtext</key>
+				<string>Run `memcached`</string>
+				<key>title</key>
+				<string>memcached Command</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>8018CD8E-A57D-4697-8EA0-7EB08B8F80AF</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>080E35B4-F46C-4050-BC89-2765384D3DF4</key>
+		<dict>
+			<key>ypos</key>
+			<real>160</real>
+		</dict>
+		<key>27A9BDCB-3FC5-4594-A97D-CE17CC4F6DBB</key>
+		<dict>
+			<key>ypos</key>
+			<real>280</real>
+		</dict>
+		<key>282FD3F5-1575-433F-87D2-93C65FB22519</key>
+		<dict>
+			<key>ypos</key>
+			<real>280</real>
+		</dict>
+		<key>3CDF9F7E-2119-419E-B80F-1071675057C9</key>
+		<dict>
+			<key>ypos</key>
+			<real>340</real>
+		</dict>
+		<key>40F6C424-CBA8-4A34-A86C-71CE9ACE3E01</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>6E8598E6-C055-4172-82AB-DC3781B3346C</key>
+		<dict>
+			<key>ypos</key>
+			<real>400</real>
+		</dict>
+		<key>8018CD8E-A57D-4697-8EA0-7EB08B8F80AF</key>
+		<dict>
+			<key>ypos</key>
+			<real>520</real>
+		</dict>
+		<key>B7D79F90-2CE8-4BD8-9B9D-40910959F902</key>
+		<dict>
+			<key>ypos</key>
+			<real>340</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://github.com/elalemanyo</string>
+</dict>
+</plist>
