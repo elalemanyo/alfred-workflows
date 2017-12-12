@@ -23,6 +23,6 @@ Based on my Localhost Enviroment [Installation](http://blog.frd.mn/install-nginx
 
 ### [Fake Mac Update](https://github.com/elalemanyo/alfred-workflows/tree/master/fakemacupdate) (v1.0)
 
-![Screenshot](./fakemacupdate/screens/fakemacupdate_screen_2.png)<br><br>
+![Screenshot](./fakemacupdate/screens/fakemacupdate.gif)<br><br>
 
 * * *
