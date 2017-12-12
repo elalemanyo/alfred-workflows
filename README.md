@@ -2,7 +2,7 @@
 
 A collection of [Alfred](http://www.alfredapp.com/) Workflows that maybe will rock your world.
 
-![Alfred Logo](http://f.cl.ly/items/112u3G2z3g2B202W3e3p/alfred.png)
+![Alfred Logo](./images/alfred_logo.png)
 
 ## Install
 
@@ -19,10 +19,10 @@ Toggle Localhost Services (Start, Stop, Restart and Check Status).
 Based on my Localhost Enviroment [Installation](http://blog.frd.mn/install-nginx-php-fpm-mysql-and-phpmyadmin-on-os-x-mavericks-using-homebrew) (Thanks [frdmn](http://blog.frd.mn)!!).
 
 #### Localhost
-![Screenshot](http://cloud.elalemanyo.de/tmp/localhost-dESNmIISKa.png)<br><br>
+![Screenshot](./nginx_mysql_php-fpm/src/screens/localhost.png)<br><br>
 
 ### [Fake Mac Update](https://github.com/elalemanyo/alfred-workflows/tree/master/fakemacupdate) (v1.0)
 
-![Screenshot](http://cloud.elalemanyo.de/tmp/fakemacupdate_screen_2-T4mIYfqdHx.png)<br><br>
+![Screenshot](./fakemacupdate/screens/fakemacupdate_screen_2.png)<br><br>
 
 * * *

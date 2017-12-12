@@ -2,9 +2,9 @@ Fake Mac Update
 ================================
 Alfred Workflow to open [Fake Mac Update](http://fakemacupdate.elalemanyo.de/) webpage, enable full screen and activate [Amphetamine](https://itunes.apple.com/app/amphetamine/id937984704)
 
-![Screenshot](http://cloud.elalemanyo.de/tmp/fakemacupdate_screen_1-JsDOKLaC40.png)<br><br>
+![Screenshot](./screens/fakemacupdate_screen_1.png)<br><br>
 
-![Screenshot](http://cloud.elalemanyo.de/tmp/fakemacupdate_screen_2-T4mIYfqdHx.png)<br><br>
+![Screenshot](./screens/fakemacupdate_screen_2.png)<br><br>
 
 ## Requirement
 * [Alfred](http://www.alfredapp.com)

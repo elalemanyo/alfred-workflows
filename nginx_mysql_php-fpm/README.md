@@ -24,16 +24,16 @@ Based on my Localhost Enviroment [Installation](http://blog.frd.mn/install-nginx
 * * *
 
 #### Localhost
-![Screenshot](http://notepago.de/screenshots/nginxmysqlphpfpm/localhost.png)<br><br>
+![Screenshot](./src/screens/localhost.png)<br><br>
 
 #### Nginx
-![Screenshot](http://notepago.de/screenshots/nginxmysqlphpfpm/nginx.png)<br><br>
+![Screenshot](./src/screens/nginx.png)<br><br>
 
 #### MySQL
-![Screenshot](http://notepago.de/screenshots/nginxmysqlphpfpm/mysql.png)<br><br>
+![Screenshot](./src/screens/mysql.png)<br><br>
 
 #### PHP-fpm
-![Screenshot](http://notepago.de/screenshots/nginxmysqlphpfpm/php-fpm.png)<br><br>
+![Screenshot](./src/screens/php-fpm.png)<br><br>
 
 #### Memcached
-![Screenshot](http://notepago.de/screenshots/nginxmysqlphpfpm/memcached.png)<br><br>
+![Screenshot](./src/screens/memcached.png)<br><br>
